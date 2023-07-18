@@ -1,39 +1,39 @@
 /* Write your CSS here */
-@media screen and (min-width: 767px) {
-  .google-container {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    vertical-align: scroll;
-  }
-  .imageUrl {
-    height: 15px;
-    width: 15px;
-    margin-left: 30px;
-  }
-  .google-image {
-    height: 100px;
-  }
-  .search-con {
-    display: flex;
-  }
-  .googleInput {
-    border: 0;
-    outline: none;
-    width: 28vw;
-    font-size: 10px;
-  }
-  .mini-search-con {
-    box-shadow: 0px 4px 16px 0px #bfbfbf;
 
-    padding: 10px;
-    border-radius: 14px;
-    margin-top: 20px;
-  }
+.google-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  vertical-align: scroll;
 }
-@media screen and (max-width: 767px) {
+.imageUrl {
+  height: 15px;
+  width: 15px;
+  margin-left: 30px;
+}
+.google-image {
+  height: 100px;
+}
+.search-con {
+  display: flex;
+}
+.googleInput {
+  border: 0;
+  outline: none;
+  width: 28vw;
+  font-size: 10px;
+}
+.mini-search-con {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+
+  padding: 10px;
+  border-radius: 14px;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 767px) {
   .google-container {
     min-height: 100vh;
     display: flex;

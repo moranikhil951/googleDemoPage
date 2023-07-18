@@ -1,32 +1,31 @@
 /* Write your CSS here */
-@media screen and (min-width: 767px) {
-  .listed-items {
-    list-style-type: none;
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
-  }
-  .single-line {
-    text-decoration: none;
-    text-decoration-color: white;
-  }
-  .arrow-image {
-    background-color: white;
-    border: 0;
-    height: 20px;
-  }
-  .buttonImage {
-    border: 0;
-    background-color: white;
-    cursor: pointer;
-  }
-  .single-line {
-    font-size: 10px;
-  }
+
+.listed-items {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+.single-line {
+  text-decoration: none;
+  text-decoration-color: white;
+}
+.arrow-image {
+  background-color: white;
+  border: 0;
+  height: 20px;
+}
+.buttonImage {
+  border: 0;
+  background-color: white;
+  cursor: pointer;
+}
+.single-line {
+  font-size: 10px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 767px) {
   .listed-items {
     list-style-type: none;
     margin: 0;
